@@ -1,4 +1,5 @@
 .h-wrapper {
+
     .h-container {
         display: flex;
         justify-content: space-between;
@@ -17,6 +18,7 @@
                 height: 50px;
                 border-radius: 100%;
                 border: none;
+                cursor: pointer;
             }
         }
 
@@ -31,6 +33,7 @@
                 color: white;
                 font-size: 1rem;
                 font-weight: 600;
+                cursor: pointer;
             }
 
 
@@ -39,9 +42,14 @@
                 color: black;
                 font-size: 1rem;
                 font-weight: 600;
+                cursor: pointer;
             }
 
-            button:nth-child(2) {
+            button {
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: 600;
                 padding-left: 15px;
                 padding-right: 15px;
                 padding-top: 10px;
@@ -51,20 +59,10 @@
                 border-radius: 10px;
                 border: none;
                 transition: 400ms ease-in;
+                cursor: pointer;
             }
 
-            button:nth-child(3) {
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                background: black;
-                color: white;
-                border-radius: 10px;
-                border: none;
-                transition: 400ms ease-in;
 
-            }
 
             button:hover {
                 scale: 1.1;

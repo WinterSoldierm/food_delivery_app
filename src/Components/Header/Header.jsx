@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
+import { Link, Navigate } from "react-router-dom";
+import Login from "../Login/Register/Login";
+import Register from "../Login/Register/Register";
 
 const Header = () => {
   return (
@@ -12,15 +15,15 @@ const Header = () => {
             </div>
           </div>
           <div className="h-right">
-            <a href="/">
+            <Link to="/">
               <span>Home</span>
-            </a>
-            <button>
-              <a href="/">Login</a>
-            </button>
-            <button>
-              <a href="/">Sign Up</a>
-            </button>
+            </Link>
+            <Link to="/login">
+              <button>Log in</button>
+            </Link>
+            <Link to="/register">
+              <button>Register</button>
+            </Link>
           </div>
         </div>
       </div>
