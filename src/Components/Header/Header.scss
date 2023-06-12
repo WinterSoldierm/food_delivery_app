@@ -1,0 +1,78 @@
+.h-wrapper {
+    .h-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: var(--secondary);
+
+        .h-left {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                border: none;
+            }
+        }
+
+        .h-right {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+
+            span {
+                text-decoration: none;
+                color: black;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+            button:nth-child(2) {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background: black;
+                color: white;
+                border-radius: 10px;
+                border: none;
+                transition: 400ms ease-in;
+            }
+
+            button:nth-child(3) {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background: black;
+                color: white;
+                border-radius: 10px;
+                border: none;
+                transition: 400ms ease-in;
+
+            }
+
+            button:hover {
+                scale: 1.1;
+                box-shadow: var(--shadow);
+            }
+        }
+
+
+
+    }
+}
