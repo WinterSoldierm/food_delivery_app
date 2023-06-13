@@ -1,11 +1,16 @@
 .c-wrapper {
     .c-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 30rem;
-        height: 30rem;
+        display: inline-block;
         background: var(--lightBlue);
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        transition: 300ms ease-in;
+        cursor: pointer;
+
+
 
         .card {
             display: flex;
@@ -14,15 +19,42 @@
             flex-direction: column;
 
             .dropdown {
-                padding: 12px 10px;
-                width: 100%;
-                height: 100%;
+                padding: 8px 8px;
+                width: 5rem;
+            }
+
+            .Dropdown-control {
+                position: relative;
+                overflow: hidden;
+                background-color: white;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-sizing: border-box;
+                color: #333;
+                cursor: pointer;
+                outline: none;
+                padding: 10px 54px 10px 15px;
+                transition: all 200ms ease;
             }
 
             img {
                 width: 15rem;
                 height: 10rem;
+                border-radius: 10px;
+            }
+
+            .drop {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 1rem;
             }
         }
+
+
+    }
+
+    .c-container:hover {
+        box-shadow: var(--shadow);
     }
 }

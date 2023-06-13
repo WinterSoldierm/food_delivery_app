@@ -1,0 +1,15 @@
+.cards-wrapper {
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:30px;
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+
+        }
+    }
+}
