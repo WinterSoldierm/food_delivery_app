@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Header.scss";
 import { Link, Navigate } from "react-router-dom";
-import Login from "../Login/Register/Login";
-import Register from "../Login/Register/Register";
+import Login from "../../Pages/Login/Login";
+import Register from "../../Pages/Registration/Register";
 
 const Header = () => {
   return (

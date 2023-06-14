@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.scss";
-import Header from "../../Header/Header";
+import Header from "../../Components/Header/Header";
 
 const Login = () => {
   return (

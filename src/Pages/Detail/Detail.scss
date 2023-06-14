@@ -1,0 +1,67 @@
+.d-wrapper {
+    .d-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        .d-left {
+            .image-container {
+                width: 30rem;
+                height: auto;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    border-radius: 15px;
+                }
+
+                img:hover {
+                    box-shadow: var(--shadow);
+                }
+            }
+        }
+
+        .d-right {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 35rem;
+            height: auto;
+            padding: 5px;
+            gap: 1.4rem;
+
+
+            .drop {
+                display: flex;
+                justify-content: flex-start;
+                gap: 2rem;
+                align-items: center;
+            }
+
+            .btn {
+                width: 10rem;
+                font-weight: 600;
+                padding: 0.6rem 1.4rem;
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 4px;
+
+                transition: all 300ms ease-in;
+
+                .icon {
+                    font-size: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .btn:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}

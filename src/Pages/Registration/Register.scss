@@ -1,0 +1,48 @@
+.r-wrapper {
+    .r-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+
+        .r-left {
+            .image-container {
+                width: 20rem;
+                height: 25rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px;
+                }
+
+                img:hover {
+                    box-shadow: var(--shadow);
+                }
+            }
+        }
+
+        .r-right {
+            padding: 15px;
+            background: #f8f4f4;
+            border: none;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+
+            .form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 1.5rem;
+
+                input {
+                    padding: 8px;
+                    border: 1px solid gainsboro;
+                    border-radius: 5px;
+                }
+
+            }
+        }
+    }
+}

@@ -1,14 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import HeroBanner from "./Components/HeroBanner/HeroBanner";
-import Header from "./Components/Header/Header";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Register from "./Components/Login/Register/Register";
-import Login from "./Components/Login/Register/Login";
-import Detail from "./Pages/Detail";
+import Register from "./Pages/Registration/Register";
+import Login from "./Pages/Login/Login";
+import Detail from "./Pages/Detail/Detail";
 
 function App() {
   return (
