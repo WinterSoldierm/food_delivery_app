@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroBanner.scss";
 import Card from "../Card/Card";
+import Carousel from "../Carousel/Carousel";
 
 const HeroBanner = () => {
   return (
@@ -13,8 +14,8 @@ const HeroBanner = () => {
             </h1>
           </div>
           <div className="flexCenter hero-right">
-            <div className="image">
-              <img src="./c2.jpg" alt="Banner" />
+            <div>
+              <Carousel />
             </div>
           </div>
         </div>

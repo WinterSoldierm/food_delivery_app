@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.scss";
 import Header from "../../Components/Header/Header";
-
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div>
@@ -42,6 +42,12 @@ const Login = () => {
               </label>
             </div>
             <button className="button">Login</button>
+            <span className="secondaryText">
+              Don't have an account?{" "}
+              <Link className="reg orangeText" to="/register">
+                register
+              </Link>
+            </span>
           </div>
         </div>
       </div>
