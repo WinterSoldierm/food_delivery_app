@@ -14,6 +14,7 @@ const Register = () => {
           </div>
           <div className="r-right">
             <div className="form">
+              <span className="orangeText">Register</span>
               <input type="text" placeholder="Name" />
               <input type="text" placeholder="Mobile Number" maxlength="10" />
               <input type="email" placeholder="abc@gmail.com" />

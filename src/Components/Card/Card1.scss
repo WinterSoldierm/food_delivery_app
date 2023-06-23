@@ -1,0 +1,40 @@
+.card1 {
+    width: 15rem;
+    height: 10rem;
+    aspect-ratio: 16 / 8;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-areas: "stack";
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.card1>figcaption {
+    display: grid;
+    align-items: end;
+    padding: 1.5rem 2rem;
+    background-image: linear-gradient(to bottom,
+            rgb(33 44 55 / 0),
+            rgb(33 44 55 / 0),
+            rgb(33 44 55 / 0.75));
+}
+
+.card1 figcaption {
+    opacity: 0;
+    color: white;
+    transition: opacity 300ms;
+}
+
+.card1:hover figcaption {
+    opacity: 1;
+}
+
+.card1>* {
+    grid-area: stack;
+}
